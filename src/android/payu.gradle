@@ -1,0 +1,23 @@
+
+repositories{
+    jcenter()
+   
+}
+
+dependencies {
+    implementation 'in.payu:payu-checkout-pro:1.6.0'
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+   
+    packagingOptions {
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+    }
+}

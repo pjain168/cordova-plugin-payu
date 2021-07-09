@@ -1,0 +1,17 @@
+{
+  "name": "cordova-plugin-payu",
+  "version": "0.1.0",
+  "description": "aadhar payment",
+  "cordova": {
+    "id": "cordova-plugin-payu",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "PayUMoney",
+  "license": "ISC"
+}
